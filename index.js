@@ -119,6 +119,7 @@ app.get('/yearly-earnings', async (req, res) => {
   }
 });
 
+
 // Update specific year's earnings
 app.put('/yearly-earnings/:year', async (req, res) => {
   try {
